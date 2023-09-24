@@ -1,0 +1,75 @@
+body{
+ font-family: 'Croissant One', cursive;
+ display: grid;
+ place-items: center;
+ height: 100vh;
+ background-color: rgb(207, 171, 177);
+}
+
+
+.container{
+ display: grid;
+ /* place-items: center; */
+ /* grid-template-columns:  1fr; */
+ place-items: center;
+ grid-template-rows: 1fr 1fr 1fr;
+ width: 600px;
+ height: 400px;
+ border-radius: 20px;
+ background-color: pink;
+
+}
+#alarm , #break{
+ display: none;
+ font-size: 50px;
+ line-clamp: 20px;
+ font-weight: bold;
+}
+#timer{
+ position: absolute;
+ font-size: 50px;
+ line-clamp: 20px;
+ font-weight: bold;
+ /* margin-top: -100px; */
+}
+.top{
+ display: flex;
+ align-items: center;
+ /* justify-content: space-between; */
+ gap: 30px;
+}
+.Pomodoro{
+ width: auto;
+ height: auto;
+ padding: .3rem;
+ cursor: pointer;
+ border-radius: 10px;
+ background-color: rgb(228, 118, 136);
+}
+
+.start{
+ border-radius: 20px;
+ width: 200px;
+ height: 50px;
+ cursor: pointer;
+ border:none;
+ background-color: brown;
+ position: absolute;
+
+ /* z-index: -1; */
+ top: 65%;
+ font-size: 27px;
+ color: #d5ba4a;
+ font-weight: bold;
+
+}
+
+.Short_Break, .Long_Break{
+ /* cursor: pointer; */
+ width: auto;
+ height: auto;
+ padding: .3rem;
+ cursor: pointer;
+ /* background-color: rgb(228, 118, 136); */
+ border-radius: 10px;
+}
