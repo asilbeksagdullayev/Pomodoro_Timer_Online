@@ -67,9 +67,10 @@ body{
 .Short_Break, .Long_Break{
  /* cursor: pointer; */
  width: auto;
+ border: none;
+ background: none;
  height: auto;
  padding: .3rem;
  cursor: pointer;
- /* background-color: rgb(228, 118, 136); */
  border-radius: 10px;
 }
